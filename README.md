@@ -48,7 +48,7 @@ uses Scapy primitives to access the packet and inject, or extract, the secret in
 The simple way to use IPv6CC is to clone the repository and use the dockerfile to build a Docker container containing the src folder with the scripts. The scripts are then visible in the root directory /root/covert_channels.
 
 1. Clone the repository to your local machine.
-```bash
+```
 $  git clone https://github.com/Ocram95/IPv6CC_SoftwareX.git
 ```
 2. Copy the src folder of the repository into the docker directory.
