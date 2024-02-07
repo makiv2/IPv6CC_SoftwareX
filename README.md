@@ -90,12 +90,7 @@ $  RUN echo 'root:PASSWORD' | chpasswd
 10. Install NetfilterQueue
 ```
 apt-get install build-essential python3-dev libnetfilter-queue-dev # Dependencies
-pip install netfilterqueue
-```
-
-11. Scrapy
-```
-sudo apt-get install python3-scapy
+sudo pip3 install netfilterqueue 
 ```
 
 ### Manual Installation
