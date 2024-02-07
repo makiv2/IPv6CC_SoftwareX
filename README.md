@@ -93,6 +93,11 @@ apt-get install build-essential python3-dev libnetfilter-queue-dev # Dependencie
 pip install netfilterqueue
 ```
 
+11. Scrapy
+```
+sudo apt-get install python3-scapy
+```
+
 ### Manual Installation
 Another possibility is to clone the repository and manually install all libraries needed and their dependencies.
 
