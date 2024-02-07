@@ -93,6 +93,11 @@ apt-get install build-essential python3-dev libnetfilter-queue-dev # Dependencie
 sudo pip3 install netfilterqueue 
 ```
 
+11. Probe IPv6Tables
+```
+sudo modprobe ip6table_filter
+```
+
 ### Manual Installation
 Another possibility is to clone the repository and manually install all libraries needed and their dependencies.
 
