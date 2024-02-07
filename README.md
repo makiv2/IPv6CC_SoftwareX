@@ -87,6 +87,12 @@ $  ssh root@localhost -p [exposed portnumber]
 $  RUN echo 'root:PASSWORD' | chpasswd
 ```
 
+10. Install NetfilterQueue
+```
+apt-get install build-essential python3-dev libnetfilter-queue-dev # Dependencies
+pip install netfilterqueue
+```
+
 ### Manual Installation
 Another possibility is to clone the repository and manually install all libraries needed and their dependencies.
 
